@@ -4,6 +4,10 @@ describe("Helpers test (with setup and tear-down)", function() {
         tipAmtInput.value = 40;
     });
 
+    it('should add the new payment to the Bill total', () => {
+        allPayments = 
+    })
+
     afterEach(() =>{
         allPayments = {};
         paymentId = 0;
